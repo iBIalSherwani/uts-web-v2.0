@@ -1,0 +1,59 @@
+.bg-dark{
+    background: rgb(12,0,150);
+    background: linear-gradient(90deg, rgba(12,0,150,1) 0%, rgba(55,39,209,1) 41%, rgba(0,107,255,1) 63% );    
+}
+
+#titlecolor{
+    color: rgb(0, 162, 255);
+    transition: all 1.0s ease-in;
+
+}
+
+#titlecolor:hover{
+    color: rgba(255, 0, 0, 0.788);
+    letter-spacing: 5px;
+}
+
+#logo{
+    margin-top: -10px;
+    height: 35px;
+    width: 35px;
+}
+
+#color{
+    color: white;
+}
+
+#color:hover{
+    color: black;
+}
+
+.nav-link{
+    padding: 15px;
+}
+
+.nav-link:hover{
+    padding: 15px;
+    background-color: #34c6eb;
+    transition: all 0.2s ease-in;
+}
+
+.dropdown-menu{
+    background: rgb(0,107,255,1);
+}
+
+.dropdown-item{
+    padding: 12px;
+    color: white;
+}
+
+.dropdown-item:hover{
+    color: black;
+    padding: 12px;
+    background-color: #34c6eb;
+    transition: all 0.2s ease-in;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
