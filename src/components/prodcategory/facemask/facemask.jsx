@@ -1,10 +1,10 @@
 import React from 'react'
-import './productshome.css'
+import './facemask.css'
 
-function productsHome() {
+function FaceMask() {
     return(
 <div class="container">
-    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Product line </h3>
+    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Face Mask </h3>
     <div class="row">
 
 
@@ -17,14 +17,14 @@ function productsHome() {
                         <img class="pic-1" src="uts-logo.png" />
                         <img class="pic-2" src="uts-logo.png" />
                     </a>
-                    <a href="/heavymachinery" class="fa fa-search product-full-view"></a>
+                    <a href="#" class="fa fa-search product-full-view"></a>
                 </div>
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase">Heavy Machinery</h3>
+                    <h3 class="title text-uppercase"><a href="#">Prod 1</a></h3>
                     <br></br>
-                    <a class="add-to-cart text-uppercase" href="/heavymachinery">view products</a>
+                    <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
             </div>
         </div> 
@@ -37,14 +37,14 @@ function productsHome() {
                         <img class="pic-1" src="uts-logo.png" />
                         <img class="pic-2" src="uts-logo.png" />
                     </a>
-                    <a href="/tissues" class="fa fa-search product-full-view"></a>
+                    <a href="#" class="fa fa-search product-full-view"></a>
                 </div>
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase">Tissues</h3>
+                    <h3 class="title text-uppercase"><a href="#">Prod 2</a></h3>
                     <br></br>
-                    <a class="add-to-cart text-uppercase" href="/tissues">view products</a>
+                    <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
             </div>
         </div>
@@ -57,14 +57,14 @@ function productsHome() {
                         <img class="pic-1" src="uts-logo.png" />
                         <img class="pic-2" src="uts-logo.png" />
                     </a>
-                    <a href="/facemask" class="fa fa-search product-full-view"></a>
+                    <a href="#" class="fa fa-search product-full-view"></a>
                 </div>
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase">Face Mask</h3>
+                    <h3 class="title text-uppercase"><a href="#">Prod 3</a></h3>
                     <br></br>
-                    <a class="add-to-cart text-uppercase" href="/facemask">view products</a>
+                    <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
             </div>
         </div>
@@ -77,12 +77,12 @@ function productsHome() {
                         <img class="pic-1" src="uts-logo.png" />
                         <img class="pic-2" src="uts-logo.png" />
                     </a>
-                    <a href="/accessories" class="fa fa-search product-full-view"></a>
+                    <a href="#" class="fa fa-search product-full-view"></a>
                 </div>
                 <div class="product-content">
-                    <h3 class="title text-uppercase">accessories</h3>
+                    <h3 class="title text-uppercase"><a href="#">Prod 4</a></h3>
                     <br></br>
-                    <a class="add-to-cart text-uppercase" href="/accessories">view products</a>
+                    <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
             </div>
         </div>
@@ -93,4 +93,4 @@ function productsHome() {
 );
 }
 
-export default productsHome;
+export default FaceMask;
