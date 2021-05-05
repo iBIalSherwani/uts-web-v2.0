@@ -19,11 +19,11 @@ return(
                             As increasing your Profit and bring you a Prosperous Business, we can offer you the best services.</p>
     </div>
       <p class="lead"> <ul id="list">
-                            <li><b> EXCELLENT QUALITY </b></li>
-                            <li><b> COMPETITIVE PRICE </b></li>
-                            <li><b> PUNCTUAL DELIVERY </b></li>
-                            <li><b> PROFESSIONAL QUALITY CONTROL </b></li>
-                            <li><b> HONEST SERVICE </b></li>
+                            <li id="li"><b> EXCELLENT QUALITY </b></li>
+                            <li id="li"><b> COMPETITIVE PRICE </b></li>
+                            <li id="li"><b> PUNCTUAL DELIVERY </b></li>
+                            <li id="li"><b> PROFESSIONAL QUALITY CONTROL </b></li>
+                            <li id="li"><b> HONEST SERVICE </b></li>
                         </ul></p>
     
   </div>

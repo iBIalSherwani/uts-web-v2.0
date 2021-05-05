@@ -1,5 +1,4 @@
 .about{
-	cursor: pointer;
 	color: #FFFFFF;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -72,7 +71,7 @@
     text-align: center;
 }
 
-li:hover {
+#li:hover {
     color: rgba(255, 0, 0, 0.788);
     transition: all .5s;
     letter-spacing: 2px;
