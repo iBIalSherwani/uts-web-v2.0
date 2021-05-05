@@ -4,7 +4,7 @@ import './heavymachinery.css'
 function HeavyM() {
     return(
 <div class="container">
-    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Heavy Machinery </h3>
+    <h3 class="text-center font-weight-bold mt-4" id="cat"> Heavy Machinery </h3>
     <div class="row">
 
 

@@ -6,7 +6,7 @@ function aboutUs(){
 
 return(
 <section class="text-center about">
-<h1>About US</h1>
+<h1 class="font-weight-bold">About Us</h1>
 <div class="container">
   <div class="row">
     <div class="col-lg-12 col-sm-12 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200" >

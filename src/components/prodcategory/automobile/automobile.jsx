@@ -4,7 +4,7 @@ import './automobile.css'
 function AutoMobile() {
     return(
 <div class="container">
-    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Auto Mobile </h3>
+    <h3 class="text-center font-weight-bold mt-4" id="cat"> Auto Mobile </h3>
     <div class="row">
 
 

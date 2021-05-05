@@ -5,7 +5,7 @@ function Contactus() {
     return(
 <section class="mb-4 overflow-hidden" id="center">
 
-    <h2 class="h1-responsive font-weight-bold text-center my-5 text-uppercase" id="cat"> Contact us</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-5" id="cat"> Contact Us</h2>
 
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
         a matter of hours to help you.</p>

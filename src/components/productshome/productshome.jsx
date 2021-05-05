@@ -4,7 +4,7 @@ import './productshome.css'
 function productsHome() {
     return(
 <div class="container">
-    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Product line </h3>
+    <h3 class="text-center font-weight-bold mt-4" id="cat"> Product line </h3>
     <div class="row">
 
 
