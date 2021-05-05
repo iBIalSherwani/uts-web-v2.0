@@ -1,0 +1,79 @@
+.about{
+	cursor: pointer;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.about h1 {
+	color: black;
+	margin-bottom: 20px;
+	transition: all 0.3s ease-in;
+}
+
+.about h1:hover{
+    color: rgba(255, 0, 0, 0.788);
+    letter-spacing: 2px;
+}
+
+.about h2 {
+	color: black;
+	opacity: .8;
+}
+.about span {
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin:auto;
+	border-radius:50%;  
+	font-size: 40px;
+	color: #FFFFFF;
+	opacity: 0.7;
+    background: rgb(12,0,150);
+    background: linear-gradient(90deg, rgba(12,0,150,1) 0%, rgba(55,39,209,1) 41%, rgba(0,107,255,1) 63% );    
+	border: 2px solid rgb(12,0,150);
+
+	webkit-transition:all .5s ease;
+ 	moz-transition:all .5s ease;
+ 	os-transition:all .5s ease;
+ 	transition:all .5s ease;
+
+}
+.about-item:hover span{
+	opacity: 1;	
+	border: 2px solid rgb(12,0,150);
+	font-size: 42px;
+	-webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+	-moz-transform: scale(1.1,1.1) rotate(360deg) ;
+	-o-transform: scale(1.1,1.1) rotate(360deg) ;
+	transform: scale(1.1,1.1) rotate(360deg) ;
+}
+.about-item:hover h2{
+	opacity: 1;
+	-webkit-transform: scale(1.1,1.1)  ;
+	-moz-transform: scale(1.1,1.1)  ;
+	-o-transform: scale(1.1,1.1)  ;
+	transform: scale(1.1,1.1) ;
+}
+
+.about-item:hover h2:hover{
+	color: rgba(255, 0, 0, 0.788);
+    letter-spacing: 2px;
+	transition: all 0.3s ease-in;
+}	
+.about .lead{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#list{
+	list-style-type: none;
+    text-align: center;
+}
+
+li:hover {
+    color: rgba(255, 0, 0, 0.788);
+    transition: all .5s;
+    letter-spacing: 2px;
+}

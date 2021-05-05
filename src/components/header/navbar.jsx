@@ -59,7 +59,7 @@ function navBar() {
           <i class="fas fa-inbox"></i> Contact Us</a>
         </li>
         <li class="nav-item m-auto">
-          <a class="nav-link text-uppercase ml-2" href="#" id="color">
+          <a class="nav-link text-uppercase ml-2" href="/aboutus" id="color">
                <i class="fas fa-info-circle"></i> About Us</a>
         </li>
       </ul>

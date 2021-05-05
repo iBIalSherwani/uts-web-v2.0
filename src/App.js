@@ -5,6 +5,7 @@ import HeavyM from './pages-products/heavymachinery'
 import AutoMobile from './pages-products/automobile'
 import Hygiene from './pages-products/hygiene'
 import Contactus from './pages/contactus/contactus'
+import Aboutus from './pages/aboutus/aboutus'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
@@ -24,6 +25,7 @@ class App extends Component {
   <Route exact path="/automobile" component={AutoMobile}/>
   <Route exact path="/hygiene" component={Hygiene}/>
   <Route exact path="/contactus" component={Contactus}/>
+  <Route exact path="/aboutus" component={Aboutus}/>
 
     </Router>
     );
