@@ -47,16 +47,16 @@ function Footer() {
         <h6 class="text-uppercase font-weight-bold">Products</h6>
         <hr class="deep-purple accent-2 mb-3 mt-2 d-inline-block mx-auto" style={{width: '80px' }}/>
         <p>
-          <a href="#!">Heavy Machinery</a>
+          <a href="/heavymachinery">Heavy Machinery</a>
         </p>
         <p>
-          <a href="#!">Tissues</a>
+          <a href="/hygiene">Hygiene</a>
         </p>
         <p>
-          <a href="#!">Face Mask</a>
+          <a href="/automobile">Auto Mobile</a>
         </p>
         <p>
-          <a href="#!">Accessories</a>
+          <a href="/accessories">Accessories</a>
         </p>
 
       </div>
