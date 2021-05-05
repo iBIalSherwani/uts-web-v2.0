@@ -8,13 +8,18 @@
     letter-spacing: 5px;
 }
 
+.title:hover{
+    color: rgba(255, 0, 0, 0.788);
+    letter-spacing: 2px;
+}
+
 .product-grid9,.product-grid9 .product-image9{
     position:relative
 }
 
 .product-grid9{
     font-family:Poppins,sans-serif;
-    z-index:1
+    z-index:1;
 }
 
 .product-grid9 .product-image9 a{
@@ -22,6 +27,7 @@
 }
 
 .product-grid9 .product-image9 img{
+    border-radius: 25px;
     width:100%;
     height:auto;
 }

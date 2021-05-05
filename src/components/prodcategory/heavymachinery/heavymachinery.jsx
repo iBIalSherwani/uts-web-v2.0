@@ -1,7 +1,7 @@
 import React from 'react'
 import './heavymachinery.css'
 
-function Accessories() {
+function HeavyM() {
     return(
 <div class="container">
     <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Heavy Machinery </h3>
@@ -22,7 +22,7 @@ function Accessories() {
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 1</a></h3>
+                    <h3 class="title text-uppercase">Prod 1</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -42,7 +42,7 @@ function Accessories() {
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 2</a></h3>
+                    <h3 class="title text-uppercase">Prod 2</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -62,9 +62,9 @@ function Accessories() {
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 3</a></h3>
+                    <h3 class="title text-uppercase">Prod 3</h3>
                     <br></br>
-                    <a class="add-to-cart text-uppercase" href="">view product</a>/a>
+                    <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ function Accessories() {
                     <a href="#" class="fa fa-search product-full-view"></a>
                 </div>
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 4</a></h3>
+                    <h3 class="title text-uppercase">Prod 4</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -93,4 +93,4 @@ function Accessories() {
 );
 }
 
-export default Accessories;
+export default HeavyM;

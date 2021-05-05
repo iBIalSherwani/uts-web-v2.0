@@ -1,10 +1,10 @@
 import React from 'react'
-import './facemask.css'
+import './automobile.css'
 
-function FaceMask() {
+function AutoMobile() {
     return(
 <div class="container">
-    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Face Mask </h3>
+    <h3 class="text-uppercase text-center font-weight-bold mt-4" id="cat"> Auto Mobile </h3>
     <div class="row">
 
 
@@ -22,7 +22,7 @@ function FaceMask() {
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 1</a></h3>
+                    <h3 class="title text-uppercase">Prod 1</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -42,7 +42,7 @@ function FaceMask() {
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 2</a></h3>
+                    <h3 class="title text-uppercase">Prod 2</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -62,7 +62,7 @@ function FaceMask() {
 
 
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 3</a></h3>
+                    <h3 class="title text-uppercase">Prod 3</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -80,7 +80,7 @@ function FaceMask() {
                     <a href="#" class="fa fa-search product-full-view"></a>
                 </div>
                 <div class="product-content">
-                    <h3 class="title text-uppercase"><a href="#">Prod 4</a></h3>
+                    <h3 class="title text-uppercase">Prod 4</h3>
                     <br></br>
                     <a class="add-to-cart text-uppercase" href="">view product</a>
                 </div>
@@ -93,4 +93,4 @@ function FaceMask() {
 );
 }
 
-export default FaceMask;
+export default AutoMobile;

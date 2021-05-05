@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import HomePage from './pages/homepage/homepage'
-import Accessories from './accesories'
-import HeavyM from './heavymachinery'
-import FaceM from './facemask'
-import Tissues from './tissues'
+import Accessories from './pages-products/accesories'
+import HeavyM from './pages-products/heavymachinery'
+import AutoMobile from './pages-products/automobile'
+import Hygiene from './pages-products/hygiene'
 import Contactus from './pages/contactus/contactus'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,8 +21,8 @@ class App extends Component {
   <Route exact path="/homepage" component={HomePage}/>
   <Route exact path="/accessories" component={Accessories}/>
   <Route exact path="/heavymachinery" component={HeavyM}/>
-  <Route exact path="/facemask" component={FaceM}/>
-  <Route exact path="/tissues" component={Tissues}/>
+  <Route exact path="/automobile" component={AutoMobile}/>
+  <Route exact path="/hygiene" component={Hygiene}/>
   <Route exact path="/contactus" component={Contactus}/>
 
     </Router>
