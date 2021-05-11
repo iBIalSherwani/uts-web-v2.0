@@ -14,8 +14,8 @@ function productsHome() {
             <div class="product-grid9">
                 <div class="product-image9">
                     <a href="#">
-                        <img class="pic-1" src="/products-pics/heavymachinery/nut-projection-welding-machine-1.png" />
-                        <img class="pic-2" src="/products-pics/heavymachinery/nut-projection-welding-machine-2.png" />
+                        <img class="pic-1" alt="machine1" src="/products-pics/heavymachinery/nut-projection-welding-machine-1.png" />
+                        <img class="pic-2" alt="machine2" src="/products-pics/heavymachinery/nut-projection-welding-machine-2.png" />
                     </a>
                     <a href="/heavymachinery" class="fa fa-search product-full-view"></a>
                 </div>
