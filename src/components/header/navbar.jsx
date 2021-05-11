@@ -49,8 +49,8 @@ function navBar() {
           <i class="fas fa-dolly"></i> Products </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/heavymachinery"> Heavy Machinery </a></li>
-            <li><a class="dropdown-item" href="/tissues"> Tissues </a></li>
-            <li><a class="dropdown-item" href="/facemask" > Face Mask </a></li>
+            <li><a class="dropdown-item" href="/hygiene"> Hygiene </a></li>
+            <li><a class="dropdown-item" href="/automobile" > Auto Mobile </a></li>
             <li><a class="dropdown-item" href="/accessories"> Accessories </a></li>
           </ul>
         </li>
